@@ -4,8 +4,6 @@
  * Mostra tots els productes amb la seva categoria des de la base de dades la_meva_botiga
  */
 
- <!-- Missatge des de la branca main  -->
-
 
 require_once 'Connexio.php';
 
