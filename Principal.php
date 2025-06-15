@@ -1,9 +1,24 @@
 <?php
 
+/**
+ * Classe Principal
+ * 
+ * Mostra la pàgina principal amb una taula de productes obtinguts de la base de dades.
+ * També inclou accions per modificar o eliminar productes.
+ * 
+ * @author Toni
+ * @version 1.0
+ */
+
 require_once('Connexio.php');
 require_once('Header.php');
 
 class Principal {
+    /**
+     * Mostra la llista de productes en format taula HTML.
+     *
+     * @return void
+     */
     
     // Método para mostrar la lista de productos
     public function mostrarProductes() {

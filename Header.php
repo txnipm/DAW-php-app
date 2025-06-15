@@ -1,5 +1,15 @@
 <?php
 
+/**
+ * Classe Header
+ * 
+ * Aquesta classe imprimeix la capçalera HTML del lloc web, incloent la navegació i carrusel d’imatges.
+ * Conté estils personalitzats i integració amb Bootstrap.
+ * 
+ * @author Toni
+ * @version 1.0
+ */
+
 class Header {
     
     // Método para mostrar el encabezado
