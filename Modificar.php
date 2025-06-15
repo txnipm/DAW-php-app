@@ -5,6 +5,15 @@ require_once('Header.php');
 
 class Modificar {
 
+    /**
+     * Mostra un formulari amb les dades del producte per modificar.
+     *
+     * @param int $id ID del producte a modificar
+     * @return void
+     */
+
+     
+
     // Método para mostrar el formulario de modificación del producto
     public function mostrarFormulari($id) {
         // Verifica si el ID del producto es válido
